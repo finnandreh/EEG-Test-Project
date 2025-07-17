@@ -1,0 +1,36 @@
+# === PlatformIO ===
+.pio/
+.pioenvs/
+.pio-libdeps/
+.pio-build/
+.vscode/
+
+# === Arduino ===
+*.elf
+*.hex
+*.bin
+*.eep
+
+# === Python ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+penv/
+*.egg-info/
+dist/
+build/
+
+# === OS/System Files ===
+.DS_Store
+Thumbs.db
+*.swp
+
+# === Logs / Misc ===
+*.log
+*.bak
+*.tmp
+*.orig

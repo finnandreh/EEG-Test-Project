@@ -1,0 +1,15 @@
+# Normalize line endings
+* text=auto
+
+# Treat source files as UTF-8 text
+*.c     text diff
+*.cpp   text diff
+*.h     text diff
+*.ino   text diff
+*.py    text diff
+
+# Binary files
+*.hex   binary
+*.bin   binary
+*.png   binary
+*.jpg   binary
